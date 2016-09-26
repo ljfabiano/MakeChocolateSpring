@@ -114,18 +114,18 @@ angular.module('TIYAngularApp', [])
 //           }
 //           };
          $scope.testTimeout = function(){
-                                console.log("testTimeout() is running")
-                     console.log("count = " + count);
-
-                                if(count == $scope.numBigs)
-                                {
-                                return;
-                                }
-                                else
-                                {
-                                count += 1;
-                                $timeout($scope.testTimeout, 1000)
-                                }
+//                                console.log("testTimeout() is running")
+//                     console.log("count = " + count);
+//
+//                                if(count == $scope.numBigs)
+//                                {
+//                                return;
+//                                }
+//                                else
+//                                {
+//                                count += 1;
+//                                $timeout($scope.testTimeout, 1000)
+//                                }
                                 };
         $scope.sendChocolate = function(){
                    console.log("sendChocolate() is running")
